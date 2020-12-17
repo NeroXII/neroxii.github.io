@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Learning JS</title>
+</head>
+
+<body>
+    <header>
+        <img src="imgs/favicon.png" alt="" srcset="">
+        <nav>
+            <ul>
+
+                <li><a href="#">Home</a></li>
+
+
+                <li><a href="#">About</a></li>
+
+
+                <li><a href="#">Contact</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="climat">
+        <!------------------- Date----------------->
+        <div class="today">
+            <h2 id="today"></h2>
+            <p id="time"></p>
+        </div>
+        <!------------------- Weather----------------->
+        <div class="weather">
+        <h3 id="weather"></h3>
+         <h4 id="desc"></h4>
+        </div>
+        <!------------------- Weather Image----------------->
+        <div class="w-img"><img src="imgs/weather/loading.png" alt="Rainy" id="status"></div> 
+    </div>
+
+
+    <div class="wrapper">
+        <div class="App">
+            <h1> Calculator</h1>
+            <p>My first JavaScript App </p>
+
+            <form id="form">
+                <div>
+                    <label for="num1">Number1:</label>
+                    <input type="text" id="num1">
+                    <label for="num2">Number 2:</label>
+                    <input type="text" id="num2">
+                    <select id="op">
+                        <option value="add">Add</option>
+                        <option value="div">divide</option>
+                        <option value="sub">Sub</option>
+                    </select>
+                    <button type="submit">Calc</button>
+                </div>
+            </form>
+            <h2 id="res"></h2>
+        </div>
+
+
+    </div>
+
+
+    <div class="img-div">
+        <h4 id="change">Next</h4>
+        <img src="imgs/lel.jpg" id="img-test">
+    </div>
+
+    <script src="day.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
